@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Brew & Bean Cafe virtual assistant — ask about our menu, hours, and more!" />
+  <title>Brew &amp; Bean Cafe — Barista Bot ☕</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Favicon via emoji data-URL (no extra file needed) -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>☕</text></svg>" />
+</head>
+<body>
+
+<div id="app">
+
+  <!-- ═══════════════════════════════════════
+       HEADER
+       ═══════════════════════════════════════ -->
+  <header>
+    <!-- SVG Logo -->
+    <div class="logo-wrap" aria-hidden="true">
+      <svg viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <!-- Cup body -->
+        <path d="M10 18h28l-3 18H13L10 18Z" fill="#C8A97E" stroke="#fff" stroke-width="1.5"/>
+        <!-- Cup rim -->
+        <rect x="8" y="14" width="32" height="5" rx="2.5" fill="#E8D5B7" stroke="#fff" stroke-width="1"/>
+        <!-- Handle -->
+        <path d="M38 21c4 0 6 2 6 5s-2 5-6 5" stroke="#fff" stroke-width="2" stroke-linecap="round" fill="none"/>
+        <!-- Steam lines -->
+        <path d="M18 10 Q19 7 18 4" stroke="#fff" stroke-width="1.5" stroke-linecap="round" fill="none" opacity=".8"/>
+        <path d="M24 11 Q25 7 24 3" stroke="#fff" stroke-width="1.5" stroke-linecap="round" fill="none" opacity=".8"/>
+        <path d="M30 10 Q31 7 30 4" stroke="#fff" stroke-width="1.5" stroke-linecap="round" fill="none" opacity=".8"/>
+      </svg>
+    </div>
+
+    <!-- Title -->
+    <div class="header-text">
+      <h1>Brew &amp; Bean Cafe</h1>
+      <p><span class="status-dot"></span>Barista Bot is online</p>
+    </div>
+
+    <!-- Dark Mode Toggle -->
+    <button id="theme-toggle" aria-label="Toggle dark mode" title="Toggle dark mode">
+      <span id="theme-icon">🌙</span>
+    </button>
+  </header>
+
+  <!-- ═══════════════════════════════════════
+       CHAT WINDOW
+       ═══════════════════════════════════════ -->
+  <div id="chat-window" role="log" aria-live="polite" aria-label="Chat messages">
+
+    <!-- Welcome / empty state (hidden once chat starts) -->
+    <div id="welcome">
+      <div class="welcome-icon">☕</div>
+      <h2>Welcome to Brew &amp; Bean Cafe!</h2>
+      <p>Ask me anything about our menu, opening hours, location, Wi-Fi, or policies.</p>
+    </div>
+
+  </div><!-- /#chat-window -->
+
+  <!-- ═══════════════════════════════════════
+       QUICK-REPLY CHIPS
+       ═══════════════════════════════════════ -->
+  <div id="quick-replies" role="toolbar" aria-label="Quick replies">
+    <button class="quick-btn" data-msg="What are your opening hours?" aria-label="Opening hours">
+      🕐 Opening hours
+    </button>
+    <button class="quick-btn" data-msg="Show me your full menu with prices." aria-label="Menu">
+      📋 Menu &amp; Prices
+    </button>
+    <button class="quick-btn" data-msg="How can I contact the cafe?" aria-label="Contact">
+      📞 Contact us
+    </button>
+    <button class="quick-btn" data-msg="Do you have Wi-Fi? What's the password?" aria-label="Wi-Fi">
+      📶 Wi-Fi info
+    </button>
+    <button class="quick-btn" data-msg="What is your refund and return policy?" aria-label="Refund policy">
+      🔄 Refund policy
+    </button>
+  </div>
+
+  <!-- ═══════════════════════════════════════
+       INPUT AREA
+       ═══════════════════════════════════════ -->
+  <div id="input-area">
+    <textarea
+      id="user-input"
+      rows="1"
+      placeholder="Ask Barista Bot anything about the cafe…"
+      aria-label="Message input"
+      autocomplete="off"
+      spellcheck="true"
+    ></textarea>
+
+    <button id="send-btn" aria-label="Send message" title="Send (Enter)">
+      <!-- Send arrow SVG -->
+      <svg viewBox="0 0 24 24" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+        <path d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"/>
+      </svg>
+    </button>
+  </div>
+
+</div><!-- /#app -->
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,128 @@
+{
+  "business_name": "Brew & Bean Cafe",
+  "tagline": "Crafted with love, served with warmth.",
+  "description": "Brew & Bean Cafe is a modern specialty coffee shop dedicated to sourcing single-origin beans, crafting artisan espresso drinks, and serving fresh house-made pastries in a cozy, welcoming atmosphere.",
+
+  "location": {
+    "address": "142 Maple Street",
+    "city": "Portland",
+    "state": "OR",
+    "zip": "97201",
+    "country": "USA",
+    "google_maps": "https://maps.google.com/?q=142+Maple+Street+Portland+OR+97201"
+  },
+
+  "contact": {
+    "phone": "+1 (503) 847-2210",
+    "email": "hello@brewandbeancafe.com",
+    "instagram": "@brewandbeancafe",
+    "website": "https://www.brewandbeancafe.com"
+  },
+
+  "opening_hours": {
+    "monday":    { "open": "07:00 AM", "close": "08:00 PM" },
+    "tuesday":   { "open": "07:00 AM", "close": "08:00 PM" },
+    "wednesday": { "open": "07:00 AM", "close": "08:00 PM" },
+    "thursday":  { "open": "07:00 AM", "close": "09:00 PM" },
+    "friday":    { "open": "07:00 AM", "close": "10:00 PM" },
+    "saturday":  { "open": "08:00 AM", "close": "10:00 PM" },
+    "sunday":    { "open": "09:00 AM", "close": "06:00 PM" },
+    "holidays":  "Closed on Thanksgiving and Christmas Day. Reduced hours on New Year's Day (10:00 AM – 4:00 PM)."
+  },
+
+  "menu": {
+    "hot_drinks": [
+      { "name": "Espresso",              "price": 3.00,  "description": "Double shot of our house-blend single-origin espresso." },
+      { "name": "Americano",             "price": 3.50,  "description": "Espresso diluted with hot water for a smooth, bold cup." },
+      { "name": "Cappuccino",            "price": 4.50,  "description": "Equal parts espresso, steamed milk, and thick milk foam." },
+      { "name": "Latte",                 "price": 5.00,  "description": "Espresso with creamy steamed milk and a light layer of foam." },
+      { "name": "Flat White",            "price": 4.75,  "description": "Ristretto shots with velvety micro-foam milk." },
+      { "name": "Cortado",               "price": 4.00,  "description": "Equal parts espresso and warm milk to reduce acidity." },
+      { "name": "Mocha",                 "price": 5.50,  "description": "Espresso, house-made chocolate sauce, and steamed milk." },
+      { "name": "Matcha Latte",          "price": 5.25,  "description": "Ceremonial-grade matcha whisked with oat milk." },
+      { "name": "Chai Latte",            "price": 4.75,  "description": "Spiced masala chai with steamed milk." },
+      { "name": "Hot Chocolate",         "price": 4.50,  "description": "Rich Belgian chocolate melted with whole milk." },
+      { "name": "Pour-Over Coffee",      "price": 5.00,  "description": "Single-origin beans brewed to order using Chemex." },
+      { "name": "Drip Coffee",           "price": 2.75,  "description": "Fresh-brewed house blend, refills $1." }
+    ],
+    "cold_drinks": [
+      { "name": "Iced Latte",            "price": 5.50,  "description": "Espresso over ice with cold milk." },
+      { "name": "Cold Brew",             "price": 5.00,  "description": "12-hour steeped coarse-ground coffee served over ice." },
+      { "name": "Nitro Cold Brew",       "price": 5.75,  "description": "Cold brew infused with nitrogen for a creamy, stout-like finish." },
+      { "name": "Iced Matcha Latte",     "price": 5.75,  "description": "Ceremonial matcha shaken with oat milk over ice." },
+      { "name": "Iced Chai Latte",       "price": 5.25,  "description": "Masala chai concentrate over ice with milk." },
+      { "name": "Sparkling Lemonade",    "price": 4.00,  "description": "House-made lemon syrup topped with sparkling water." },
+      { "name": "Fresh Orange Juice",    "price": 4.50,  "description": "Freshly squeezed, served chilled." }
+    ],
+    "food": [
+      { "name": "Butter Croissant",      "price": 3.50,  "description": "Flaky, golden, made fresh daily." },
+      { "name": "Almond Croissant",      "price": 4.25,  "description": "Filled with almond cream, dusted with powdered sugar." },
+      { "name": "Blueberry Muffin",      "price": 3.75,  "description": "Loaded with fresh blueberries and lemon zest." },
+      { "name": "Banana Bread Slice",    "price": 3.50,  "description": "Moist, made with over-ripe bananas and walnuts." },
+      { "name": "Avocado Toast",         "price": 8.50,  "description": "Sourdough, smashed avocado, chili flakes, everything bagel seasoning." },
+      { "name": "Breakfast Sandwich",    "price": 9.00,  "description": "Egg, aged cheddar, and turkey bacon on a brioche bun." },
+      { "name": "Granola Bowl",          "price": 7.50,  "description": "House granola, Greek yogurt, fresh berries, honey drizzle." },
+      { "name": "Seasonal Quiche",       "price": 7.00,  "description": "Ask your barista for today's selection." },
+      { "name": "Cookie of the Day",     "price": 2.75,  "description": "Rotating daily selection baked in-house." }
+    ],
+    "extras_and_add_ons": [
+      { "name": "Extra Espresso Shot",   "price": 1.00  },
+      { "name": "Plant-based Milk Swap", "price": 0.75,  "description": "Oat, almond, soy, or coconut." },
+      { "name": "Flavored Syrup",        "price": 0.50,  "description": "Vanilla, caramel, hazelnut, lavender, or brown sugar." },
+      { "name": "Whipped Cream",         "price": 0.50  }
+    ]
+  },
+
+  "wifi_policy": {
+    "available": true,
+    "network_name": "BrewBean_Guest",
+    "password": "CoffeeLovers2024",
+    "speed": "100 Mbps fiber",
+    "usage_policy": "Wi-Fi is complimentary for all guests. We kindly ask that customers with laptops limit their stay to 2 hours during peak hours (8 AM – 11 AM and 12 PM – 2 PM on weekdays) so everyone can enjoy a seat. Outside of peak hours, you are welcome to stay as long as you like. Power outlets are available throughout the cafe."
+  },
+
+  "seating": {
+    "indoor_seats": 48,
+    "outdoor_patio_seats": 20,
+    "private_room": {
+      "available": true,
+      "capacity": 12,
+      "booking_info": "Available for private events or group meetings. Contact us at hello@brewandbeancafe.com or call +1 (503) 847-2210 to book."
+    }
+  },
+
+  "refund_and_return_policy": {
+    "drinks": {
+      "policy": "If your drink was made incorrectly or does not meet your expectations, please let us know immediately and we will remake it at no charge. We do not offer cash refunds on drinks once they have been prepared and accepted.",
+      "time_limit": "Must be reported before leaving the counter."
+    },
+    "food": {
+      "policy": "Packaged retail food items (e.g., bagged coffee beans) may be returned within 7 days of purchase if unopened and accompanied by a receipt. Freshly prepared food items (pastries, sandwiches) are non-refundable once sold, but we will replace any item if there is a quality issue.",
+      "time_limit": "7 days for packaged items; immediate for quality issues."
+    },
+    "merchandise": {
+      "policy": "Mugs, tumblers, and branded merchandise may be exchanged or refunded within 14 days if unused, in original condition, and accompanied by a receipt.",
+      "time_limit": "14 days from date of purchase."
+    },
+    "gift_cards": "Gift cards are non-refundable but never expire and can be used for any purchase."
+  },
+
+  "parking": {
+    "street_parking": "Available on Maple Street and adjacent Oak Avenue. Free 2-hour metered parking.",
+    "nearby_garage": "City Center Parking Garage at 155 Oak Avenue — $2/hour."
+  },
+
+  "amenities": [
+    "Free Wi-Fi",
+    "Indoor & outdoor seating",
+    "Power outlets at most tables",
+    "Accessible entrance and restrooms",
+    "Pet-friendly patio",
+    "Local art rotating gallery",
+    "Loyalty rewards program (ask barista for a stamp card)"
+  ],
+
+  "payment_methods": ["Cash", "Visa", "Mastercard", "American Express", "Apple Pay", "Google Pay"],
+
+  "allergen_note": "Our kitchen handles nuts, gluten, and dairy. Please inform your barista of any allergies before ordering. We will do our best to accommodate you safely."
+}
