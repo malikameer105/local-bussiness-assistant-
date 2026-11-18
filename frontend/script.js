@@ -2,7 +2,7 @@
 //  Brew & Bean Cafe — Barista Bot  |  script.js
 // =========================================================
 
-const API_URL = 'http://127.0.0.1:8000/chat/stream';
+const API_URL = 'https://backend-chi-three-75.vercel.app/chat/stream';
 
 // ── DOM refs ──────────────────────────────────────────────
 const chatWindow   = document.getElementById('chat-window');

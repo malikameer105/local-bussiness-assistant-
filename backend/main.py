@@ -48,6 +48,12 @@ def load_business_data() -> None:
         BUSINESS_DATA = json.load(f)
     print(f"✅  Loaded business data for: {BUSINESS_DATA.get('business_name', 'Unknown')}")
 
+# Call immediately on module load
+try:
+    load_business_data()
+except Exception as e:
+    print(f"Warning: could not preload business data: {e}")
+
 
 # ---------------------------------------------------------------------------
 # Helpers
